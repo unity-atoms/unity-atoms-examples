@@ -7,79 +7,79 @@
       "dependencies": {},
       "url": "https://registry.npmjs.org"
     },
-    "com.mambojambostudios.unity-atoms-base-atoms": {
-      "version": "file:../../unity-atoms/Packages/BaseAtoms",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2"
-      }
-    },
-    "com.mambojambostudios.unity-atoms-core": {
-      "version": "file:../../unity-atoms/Packages/Core",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {}
-    },
-    "com.mambojambostudios.unity-atoms-fsm": {
-      "version": "file:../../unity-atoms/Packages/FSM",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2",
-        "com.mambojambostudios.unity-atoms-base-atoms": "4.4.2"
-      }
-    },
-    "com.mambojambostudios.unity-atoms-mobile": {
-      "version": "file:../../unity-atoms/Packages/Mobile",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2"
-      }
-    },
-    "com.mambojambostudios.unity-atoms-mono-hooks": {
-      "version": "file:../../unity-atoms/Packages/MonoHooks",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2",
-        "com.mambojambostudios.unity-atoms-base-atoms": "4.4.2"
-      }
-    },
-    "com.mambojambostudios.unity-atoms-scene-mgmt": {
-      "version": "file:../../unity-atoms/Packages/SceneMgmt",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2",
-        "com.mambojambostudios.unity-atoms-base-atoms": "4.4.2"
-      }
-    },
-    "com.mambojambostudios.unity-atoms-tags": {
-      "version": "file:../../unity-atoms/Packages/Tags",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2",
-        "com.mambojambostudios.unity-atoms-base-atoms": "4.4.2"
-      }
-    },
-    "com.mambojambostudios.unity-atoms-ui": {
-      "version": "file:../../unity-atoms/Packages/UI",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.mambojambostudios.unity-atoms-core": "4.4.2",
-        "com.mambojambostudios.unity-atoms-base-atoms": "4.4.2"
-      }
-    },
     "com.neuecc.unirx": {
       "version": "https://github.com/starikcetin/UniRx.git#7.1.0-upm",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "f93af89f2aafeccfc7aff9dee2cecc6d60ede06b"
+    },
+    "com.unity-atoms.unity-atoms-base-atoms": {
+      "version": "file:../../unity-atoms/Packages/BaseAtoms",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2"
+      }
+    },
+    "com.unity-atoms.unity-atoms-core": {
+      "version": "file:../../unity-atoms/Packages/Core",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.unity-atoms.unity-atoms-fsm": {
+      "version": "file:../../unity-atoms/Packages/FSM",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.2"
+      }
+    },
+    "com.unity-atoms.unity-atoms-mobile": {
+      "version": "file:../../unity-atoms/Packages/Mobile",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2"
+      }
+    },
+    "com.unity-atoms.unity-atoms-mono-hooks": {
+      "version": "file:../../unity-atoms/Packages/MonoHooks",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.2"
+      }
+    },
+    "com.unity-atoms.unity-atoms-scene-mgmt": {
+      "version": "file:../../unity-atoms/Packages/SceneMgmt",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.2"
+      }
+    },
+    "com.unity-atoms.unity-atoms-tags": {
+      "version": "file:../../unity-atoms/Packages/Tags",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.2"
+      }
+    },
+    "com.unity-atoms.unity-atoms-ui": {
+      "version": "file:../../unity-atoms/Packages/UI",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity-atoms.unity-atoms-core": "4.4.2",
+        "com.unity-atoms.unity-atoms-base-atoms": "4.4.2"
+      }
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",

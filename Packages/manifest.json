@@ -1,14 +1,14 @@
 {
   "dependencies": {
     "com.mambojambostudios.marvelous": "1.0.8",
-    "com.mambojambostudios.unity-atoms-base-atoms": "file:../../unity-atoms/Packages/BaseAtoms",
-    "com.mambojambostudios.unity-atoms-core": "file:../../unity-atoms/Packages/Core",
-    "com.mambojambostudios.unity-atoms-fsm": "file:../../unity-atoms/Packages/FSM",
-    "com.mambojambostudios.unity-atoms-mobile": "file:../../unity-atoms/Packages/Mobile",
-    "com.mambojambostudios.unity-atoms-mono-hooks": "file:../../unity-atoms/Packages/MonoHooks",
-    "com.mambojambostudios.unity-atoms-scene-mgmt": "file:../../unity-atoms/Packages/SceneMgmt",
-    "com.mambojambostudios.unity-atoms-tags": "file:../../unity-atoms/Packages/Tags",
-    "com.mambojambostudios.unity-atoms-ui": "file:../../unity-atoms/Packages/UI",
+    "com.unity-atoms.unity-atoms-base-atoms": "file:../../unity-atoms/Packages/BaseAtoms",
+    "com.unity-atoms.unity-atoms-core": "file:../../unity-atoms/Packages/Core",
+    "com.unity-atoms.unity-atoms-fsm": "file:../../unity-atoms/Packages/FSM",
+    "com.unity-atoms.unity-atoms-mobile": "file:../../unity-atoms/Packages/Mobile",
+    "com.unity-atoms.unity-atoms-mono-hooks": "file:../../unity-atoms/Packages/MonoHooks",
+    "com.unity-atoms.unity-atoms-scene-mgmt": "file:../../unity-atoms/Packages/SceneMgmt",
+    "com.unity-atoms.unity-atoms-tags": "file:../../unity-atoms/Packages/Tags",
+    "com.unity-atoms.unity-atoms-ui": "file:../../unity-atoms/Packages/UI",
     "com.neuecc.unirx": "https://github.com/starikcetin/UniRx.git#7.1.0-upm",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
@@ -37,12 +37,12 @@
     "com.unity.modules.unitywebrequestwww": "1.0.0"
   },
   "testables": [
-    "com.mambojambostudios.unity-atoms-core",
-    "com.mambojambostudios.unity-atoms-base-atoms",
-    "com.mambojambostudios.unity-atoms-mobile",
-    "com.mambojambostudios.unity-atoms-scene-mgmt",
-    "com.mambojambostudios.unity-atoms-tags",
-    "com.mambojambostudios.unity-atoms-ui"
+    "com.unity-atoms.unity-atoms-core",
+    "com.unity-atoms.unity-atoms-base-atoms",
+    "com.unity-atoms.unity-atoms-mobile",
+    "com.unity-atoms.unity-atoms-scene-mgmt",
+    "com.unity-atoms.unity-atoms-tags",
+    "com.unity-atoms.unity-atoms-ui"
   ],
   "scopedRegistries": [
     {
