@@ -1,0 +1,4 @@
+[submodule "unity-atoms"]
+	path = unity-atoms
+	url = git@github.com:unity-atoms/unity-atoms.git
+	ignore = dirty

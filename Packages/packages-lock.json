@@ -15,7 +15,7 @@
       "hash": "f93af89f2aafeccfc7aff9dee2cecc6d60ede06b"
     },
     "com.unity-atoms.unity-atoms-base-atoms": {
-      "version": "file:../../unity-atoms/Packages/BaseAtoms",
+      "version": "file:../unity-atoms/Packages/BaseAtoms",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -23,13 +23,13 @@
       }
     },
     "com.unity-atoms.unity-atoms-core": {
-      "version": "file:../../unity-atoms/Packages/Core",
+      "version": "file:../unity-atoms/Packages/Core",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "com.unity-atoms.unity-atoms-fsm": {
-      "version": "file:../../unity-atoms/Packages/FSM",
+      "version": "file:../unity-atoms/Packages/FSM",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -38,7 +38,7 @@
       }
     },
     "com.unity-atoms.unity-atoms-mobile": {
-      "version": "file:../../unity-atoms/Packages/Mobile",
+      "version": "file:../unity-atoms/Packages/Mobile",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -46,7 +46,7 @@
       }
     },
     "com.unity-atoms.unity-atoms-mono-hooks": {
-      "version": "file:../../unity-atoms/Packages/MonoHooks",
+      "version": "file:../unity-atoms/Packages/MonoHooks",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -55,7 +55,7 @@
       }
     },
     "com.unity-atoms.unity-atoms-scene-mgmt": {
-      "version": "file:../../unity-atoms/Packages/SceneMgmt",
+      "version": "file:../unity-atoms/Packages/SceneMgmt",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -64,7 +64,7 @@
       }
     },
     "com.unity-atoms.unity-atoms-tags": {
-      "version": "file:../../unity-atoms/Packages/Tags",
+      "version": "file:../unity-atoms/Packages/Tags",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -73,7 +73,7 @@
       }
     },
     "com.unity-atoms.unity-atoms-ui": {
-      "version": "file:../../unity-atoms/Packages/UI",
+      "version": "file:../unity-atoms/Packages/UI",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -94,14 +94,14 @@
       "dependencies": {}
     },
     "com.unity.ext.nunit": {
-      "version": "1.0.0",
+      "version": "1.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "1.2.1",
+      "version": "2.0.7",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -110,25 +110,25 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.2",
+      "version": "2.0.5",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.vscode": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.16",
+      "version": "1.1.22",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.ext.nunit": "1.0.0",
+        "com.unity.ext.nunit": "1.0.6",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
       },
