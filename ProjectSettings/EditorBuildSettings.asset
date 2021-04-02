@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/UniRx/UniRx.unity
+    path: Assets/Examples/UniRx/UniRx.unity
     guid: 31c534783e33c48a2acf5be4231304cd
   m_configObjects: {}
