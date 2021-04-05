@@ -1,0 +1,3 @@
+[submodule "Assets/unity-atoms"]
+	path = Assets/unity-atoms
+	url = https://github.com/unity-atoms/unity-atoms.git
