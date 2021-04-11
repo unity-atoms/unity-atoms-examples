@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Assertions;
-using UnityAtoms.BaseAtoms;
+using UnityAtoms;
 
 namespace UnityAtoms.Examples
 {
@@ -10,7 +10,7 @@ namespace UnityAtoms.Examples
     public class DestroyMe : MonoBehaviour
     {
         [SerializeField]
-        FloatReference _delay = new FloatReference(-1f);
+        AtomReference<float> _delay = new AtomReference<float>(-1f);
 
         void Start()
         {

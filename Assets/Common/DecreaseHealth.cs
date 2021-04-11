@@ -14,7 +14,7 @@ namespace UnityAtoms.Examples
         public List<StringConstant> TagsAffected { get => _tags; }
 
         [SerializeField]
-        private IntReference _decreaseBy;
+        private AtomReference<int> _decreaseBy;
 
         [SerializeField]
         private List<StringConstant> _tags;
@@ -34,7 +34,7 @@ namespace UnityAtoms.Examples
 
             if (collider.gameObject.HasAnyTag(_tags))
             {
-                collider.GetComponent<UnitHealth>().Health -= _decreaseBy;
+                collider.GetComponent<UnitHealth>().Health -= _decreaseBy.Value;
             }
 
             if (_didCollide != null && _didCollide.Event != null)
