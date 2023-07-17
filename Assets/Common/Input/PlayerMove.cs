@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityAtoms.BaseAtoms;
 
 namespace UnityAtoms.Examples
 {
@@ -8,15 +9,12 @@ namespace UnityAtoms.Examples
     [AddComponentMenu("Unity Atoms/Examples/PlayerMove")]
     public class PlayerMove : MonoBehaviour
     {
-        private float _horizontal;
-        private float _vertical;
+        [SerializeField]
+        private Vector2Variable _movementInput;
 
         private void Update()
         {
-            _horizontal = Input.GetAxis("Horizontal");
-            _vertical = Input.GetAxis("Vertical");
-
-            GetComponent<Rigidbody2D>().Move(new Vector2(_horizontal, _vertical), 5f, Time.deltaTime);
+            GetComponent<Rigidbody2D>().Move(_movementInput.Value, 5f, Time.deltaTime);
         }
     }
 }

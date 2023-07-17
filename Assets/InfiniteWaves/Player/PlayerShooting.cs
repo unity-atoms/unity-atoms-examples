@@ -15,40 +15,68 @@ namespace UnityAtoms.Examples
         private StringConstant _playerTag;
 
 
-        void Update()
+        private enum Direction
+        {
+            Up,
+            Down,
+            Left,
+            Right
+        }
+        void Shoot(Direction direction)
         {
             var shootDirection = Vector3.zero;
             var rot = Quaternion.identity;
+            switch (direction)
+            {
+                case Direction.Up:
+                    {
+                        shootDirection = Vector3.up;
+                        rot = Quaternion.Euler(0f, 0f, 90f);
+                        break;
+                    }
+                case Direction.Down:
+                    {
+                        shootDirection = Vector3.down;
+                        rot = Quaternion.Euler(0f, 0f, -90f);
+                        break;
+                    }
+                case Direction.Right:
+                    {
+                        shootDirection = Vector3.right;
+                        rot = Quaternion.Euler(0f, 0f, 0f);
+                        break;
+                    }
+                case Direction.Left:
+                    {
+                        shootDirection = Vector3.left;
+                        rot = Quaternion.Euler(0f, 0f, 180f);
+                        break;
+                    }
+            }
 
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                shootDirection = Vector3.up;
-                rot = Quaternion.Euler(0f, 0f, 90f);
-            }
-            else if (Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                shootDirection = Vector3.down;
-                rot = Quaternion.Euler(0f, 0f, -90f);
+            var spawnPos = transform.position + shootDirection * 0.6f;
+            var projectile = Instantiate(_projectile, spawnPos, rot);
+            projectile.GetComponent<DecreaseHealth>().TagsAffected.Remove(_playerTag); // Turn off friendly fire
+        }
 
-            }
-            else if (Input.GetKeyDown(KeyCode.RightArrow))
-            {
-                shootDirection = Vector3.right;
-                rot = Quaternion.Euler(0f, 0f, 0f);
-            }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow))
-            {
-                shootDirection = Vector3.left;
-                rot = Quaternion.Euler(0f, 0f, 180f);
-            }
+        public void ShootUp()
+        {
+            Shoot(Direction.Up);
+        }
 
+        public void ShootDown()
+        {
+            Shoot(Direction.Down);
+        }
 
-            if (shootDirection != Vector3.zero)
-            {
-                var spawnPos = transform.position + shootDirection * 0.6f;
-                var projectile = Instantiate(_projectile, spawnPos, rot);
-                projectile.GetComponent<DecreaseHealth>().TagsAffected.Remove(_playerTag); // Turn off friendly fire
-            }
+        public void ShootLeft()
+        {
+            Shoot(Direction.Left);
+        }
+
+        public void ShootRight()
+        {
+            Shoot(Direction.Right);
         }
     }
 }
