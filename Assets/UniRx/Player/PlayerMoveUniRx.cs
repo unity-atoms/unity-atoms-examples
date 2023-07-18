@@ -14,6 +14,8 @@ namespace UnityAtoms.Examples
         private StringVariable _uiState;
         [SerializeField]
         private StringConstant _uiStatePlaying;
+        [SerializeField]
+        private Vector2Variable _movementInput;
 
         private void Awake()
         {
@@ -28,8 +30,8 @@ namespace UnityAtoms.Examples
                 ).Subscribe(t =>
                 {
                     var (_, state) = t;
-                    _horizontal = state == _uiStatePlaying.Value ? Input.GetAxis(HORIZONTAL) : 0f;
-                    _vertical = state == _uiStatePlaying.Value ? Input.GetAxis(VERTICAL) : 0f;
+                    _horizontal = state == _uiStatePlaying.Value ? _movementInput.Value.x : 0f;
+                    _vertical = state == _uiStatePlaying.Value ? _movementInput.Value.y : 0f;
                 });
 
             Observable
