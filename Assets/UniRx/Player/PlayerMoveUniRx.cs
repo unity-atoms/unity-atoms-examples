@@ -20,7 +20,6 @@ namespace UnityAtoms.Examples
         private void Awake()
         {
             float _horizontal = 0f, _vertical = 0f;
-            string HORIZONTAL = "Horizontal", VERTICAL = "Vertical";
 
             Observable
                 .EveryUpdate()
