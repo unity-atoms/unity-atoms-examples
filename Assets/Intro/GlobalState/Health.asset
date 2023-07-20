@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _developerDescription: Variable keeping track of the Player's health.
   _id: 
-  _value: 90
-  Changed: {fileID: 11400000, guid: fb1508338b66f42099fceb52aa22cf4c, type: 2}
-  ChangedWithHistory: {fileID: 0}
+  _value: 100
+  _changed: {fileID: 11400000, guid: fb1508338b66f42099fceb52aa22cf4c, type: 2}
+  _changedWithHistory: {fileID: 0}
+  _triggerChangedOnOnEnable: 0
+  _triggerChangedWithHistoryOnOnEnable: 0
   _oldValue: 100
   _initialValue: 100
-  _preChangeTransformers: []
+  _preChangeTransformers:
+  - {fileID: 11400000, guid: 958ba52eba25948938a6ce4097b9f961, type: 2}
